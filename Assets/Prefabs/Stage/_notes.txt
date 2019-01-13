@@ -1,0 +1,9 @@
+测试场景（testStage）：不可思议的教室
+1：我们仍未知道那天所见的花的名字
+2：快要坏掉的八音盒
+3：天体的秩序
+4：CLANNAD
+5：魔法少女小圆
+6：Narcissu
+
+enemyDictionary用于存放所有场景的enemyDatabase和bulletDatabase的数据

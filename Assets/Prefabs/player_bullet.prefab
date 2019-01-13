@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3816327816498752094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4169796022349524209}
+  - component: {fileID: 5694156428943257086}
+  - component: {fileID: 2560026764021921570}
+  - component: {fileID: 8247155969049291114}
+  - component: {fileID: 8884836992538137138}
+  m_Layer: 0
+  m_Name: player_bullet
+  m_TagString: player_bullet
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4169796022349524209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816327816498752094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5694156428943257086
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816327816498752094}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1087863673
+  m_SortingLayer: 5
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 30, y: 50}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &2560026764021921570
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816327816498752094}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 30, y: 50}
+    newSize: {x: 30, y: 50}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 30, y: 30}
+  m_EdgeRadius: 0
+--- !u!58 &8247155969049291114
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816327816498752094}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 30
+--- !u!114 &8884836992538137138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816327816498752094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f494a8d8b8aa941ab4835b3ec52540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pool: {fileID: 0}
+  img: {fileID: 5694156428943257086}
+  hitBox: {fileID: 2560026764021921570}
+  hitPoint: {fileID: 8247155969049291114}
+  initData:
+    damage: 0
+    recycleScaleTarget: {x: 0, y: 0}
+    recycleScaleSpeed: {x: 0, y: 0}
+    recycleScaleSpeedSmoothTime: 0
+    recycleAlphaSpeed: 0
+    spawnFxBullet: 0
+    spawnFxBulletIndex: 0
+    dieFxBullet: 0
+    dieFxBulletIndex: 0
+    dieBullet: 0
+    dieBulletIndex: 0
+  stateData: []
+  isGraze: 0
+  hitFxBulletSpawnerStateData:
+  - bulletInitData:
+      damage: 0
+      recycleScaleTarget: {x: 1.5, y: 1.5}
+      recycleScaleSpeed: {x: 5, y: 5}
+      recycleScaleSpeedSmoothTime: 0.05
+      recycleAlphaSpeed: 5
+      spawnFxBullet: 0
+      spawnFxBulletIndex: 0
+      dieFxBullet: 0
+      dieFxBulletIndex: 0
+      dieBullet: 0
+      dieBulletIndex: 0
+    bulletStateData:
+    - baseData:
+        speed: {x: 0, y: 500}
+        acc: {x: 0, y: 0}
+        forwardSpeed: {x: 0, y: 0}
+        forwardAcc: {x: 0, y: 0}
+        rotationSpeed: 0
+        rotationAcc: 0
+        scaleSpeed: {x: 0, y: 0}
+        scaleAcc: {x: 0, y: 0}
+        color: {r: 1, g: 0.8632076, b: 0.87828547, a: 0.39215687}
+        img: {fileID: 21300000, guid: 7ef05217133114841a53d731f70bc1e2, type: 3}
+        triggerSize: {x: 0, y: 0}
+        triggerRadius: 0
+        lifetime: 0.1
+      special:
+        aimingEnemy: 0
+        spawnForward: 0
+        homing: 0
+        persistantSpeed: 0
+        forwardSpeedToSpeed: 0
+      randomData:
+        enabled: 0
+        speedMin: {x: 0, y: 0}
+        speedMax: {x: 0, y: 0}
+        forwardSpeedMin: {x: 0, y: 0}
+        forwardSpeedMax: {x: 0, y: 0}
+        rotationSpeedMin: 0
+        rotationSpeedMax: 0
+        scaleSpeedMin: {x: 0, y: 0}
+        scaleSpeedMax: {x: 0, y: 0}
+    spawnDelay: 0.2
+    spawnCount: 1
+    spawnOffset: {x: 0, y: 0}
+    spawnInRotation: 0
+    spawnInScale: 0
+    deltaSpawnOffset: {x: 0, y: 0}
+    deltaPosition: {x: 0, y: 0}
+    deltaRotation: 0
+    deltaScale: {x: 0, y: 0}
+    deltaBaseData: []
+    se: {fileID: 0}
+    lifetime: 0.2
+    randomData:
+      enabled: 0
+      randomSpawnOffsetMin: {x: 0, y: 0}
+      randomSpawnOffsetMax: {x: 0, y: 0}
+      randomDeltaSpawnOffsetMin: {x: 0, y: 0}
+      randomDeltaSpawnOffsetMax: {x: 0, y: 0}
+      randomDeltaPositionMin: {x: 0, y: 0}
+      randomDeltaPositionMax: {x: 0, y: 0}
+      randomDeltaRotationMin: 0
+      randomDeltaRotationMax: 0
+      randomDeltaScaleMin: {x: 0, y: 0}
+      randomDeltaScaleMax: {x: 0, y: 0}

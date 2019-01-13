@@ -1,0 +1,87 @@
+ManifestFileVersion: 0
+CRC: 897242302
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 738aae2e7ee59704446b45764ff9f6c9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f4442a2dd184b6bb74cca20b8bc77743
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e79768a038aa3684f830c9ef4f5b75ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 85345bb018daafe4c925d1588d1877eb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 42efa5d1138f5234e891b54ad667f64c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 83bbb5447080cf5499df487e15c358d0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a57c66353d897124c8aff869bbe942de, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 24964978afe4cd74688f92e6d6204f4b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c84834fb5b5d1f84580450962d69c6c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c424277df96d69c49a48ac59ea806d78, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Stage/5/shotgun.png
+- Assets/Prefabs/Stage/5/homura.png
+- Assets/Prefabs/Stage/5/sc_2.anim
+- Assets/Prefabs/Stage/5/boss_start.wav
+- Assets/Prefabs/Stage/5/sc_3.anim
+- Assets/Prefabs/Stage/5/background_1.png
+- Assets/Prefabs/Stage/5/5_toxic.prefab
+- Assets/Prefabs/Stage/5/sc_1.anim
+- Assets/Prefabs/Stage/5/5.controller
+- Assets/Prefabs/Stage/5/sc_0.anim
+- Assets/Prefabs/Stage/5/boss_shoot.wav
+- Assets/Prefabs/Stage/5/stageBGM.ogg
+- Assets/Prefabs/Stage/5/kyubi.png
+- Assets/Prefabs/Stage/5/5.anim
+- Assets/Prefabs/Stage/5/background_2.png
+- Assets/Prefabs/Stage/5/bossBGM_1.ogg
+- Assets/Prefabs/Stage/5/sc_4.anim
+- Assets/Prefabs/Stage/5/enemy.png
+- Assets/Prefabs/Stage/5/madoka.png
+- Assets/Prefabs/Stage/5/5_normal.prefab
+- Assets/Prefabs/Stage/5/senbai.png
+- Assets/Prefabs/Stage/5/bossBGM.ogg
+- Assets/Prefabs/Stage/5/boss.png
+- Assets/Prefabs/Stage/5/5_sc.controller
+Dependencies: []

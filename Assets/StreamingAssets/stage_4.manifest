@@ -1,0 +1,86 @@
+ManifestFileVersion: 0
+CRC: 3585834064
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 215d1a9a8a6ef21cc86c25b1834388d3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0e779c30baf13baba61c1c61309b6336
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e79768a038aa3684f830c9ef4f5b75ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 85345bb018daafe4c925d1588d1877eb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 42efa5d1138f5234e891b54ad667f64c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a57c66353d897124c8aff869bbe942de, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 24964978afe4cd74688f92e6d6204f4b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c84834fb5b5d1f84580450962d69c6c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c424277df96d69c49a48ac59ea806d78, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Stage/4/boss_l.png
+- Assets/Prefabs/Stage/4/4_normal.prefab
+- Assets/Prefabs/Stage/4/4_sc.controller
+- Assets/Prefabs/Stage/4/tanko_1.png
+- Assets/Prefabs/Stage/4/boss.png
+- Assets/Prefabs/Stage/4/sc_2.anim
+- Assets/Prefabs/Stage/4/bossBGM.ogg
+- Assets/Prefabs/Stage/4/sc_1.anim
+- Assets/Prefabs/Stage/4/boss_shoot.wav
+- Assets/Prefabs/Stage/4/background_1.png
+- Assets/Prefabs/Stage/4/bigTanko.png
+- Assets/Prefabs/Stage/4/4.controller
+- Assets/Prefabs/Stage/4/sc_0.anim
+- Assets/Prefabs/Stage/4/buta.png
+- Assets/Prefabs/Stage/4/boss_c.png
+- Assets/Prefabs/Stage/4/stageBGM.ogg
+- Assets/Prefabs/Stage/4/sc_3.anim
+- Assets/Prefabs/Stage/4/4.anim
+- Assets/Prefabs/Stage/4/boss_begin.wav
+- Assets/Prefabs/Stage/4/background.png
+- Assets/Prefabs/Stage/4/boss_r.png
+- Assets/Prefabs/Stage/4/toiletCover.png
+- Assets/Prefabs/Stage/4/4_toxic.prefab
+- Assets/Prefabs/Stage/4/pan.png
+- Assets/Prefabs/Stage/4/tanko_2.png
+Dependencies: []
